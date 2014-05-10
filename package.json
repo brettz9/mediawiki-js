@@ -1,0 +1,23 @@
+{
+    "name": "mediawiki-js",
+    "version": "0.1.0",
+    "author": {
+        "name": "Brett Zamir",
+        "email": "brettz9@yahoo.com",
+        "url": "brett-zamir.me"
+    },
+    "description": "Ultra-light, vanilla JavaScript wrapper of Mediawiki API for use in the browser",
+    "main": "./MediawikiJS",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brettz9/MediawikiJS.git"
+    },
+    "keywords": [
+        "mediawiki"
+    ],
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/brettz9/MediawikiJS/issues"
+    }
+}

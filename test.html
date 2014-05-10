@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="MediawikiJS.js"></script>
+</head>
+<body>
+
+<script>
+/*globals MediaWikiJS*/
+var mwjs = new MediaWikiJS('https://en.wikipedia.org', {action: 'query', prop: 'revisions', titles: 'Main Page'}, function (data) {
+    'use strict';
+    var pages = data.query.pages;
+    alert('Main page of Wikipedia last edited by: ' + pages[Object.keys(pages)[0]].revisions[0].user);
+});
+
+</script>
+
+</body>
+</html>
