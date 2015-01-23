@@ -30,3 +30,7 @@ mwjs.send({action: 'query', prop: 'revisions', titles: 'Main Page'}, function (d
     alert('Last edited by: ' + pages[Object.keys(pages)[0]].revisions[0].user);
 });
 ```
+
+# To-dos
+
+1. Node support and publish
